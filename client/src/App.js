@@ -4,7 +4,7 @@ const App = () => {
   const [name, setName] = useState([])
 
   useEffect(() => {
-    fetch('https://monorepo-deployment.onrender.com/')
+    fetch('https://backend-deployment-assessment-b75o.onrender.com/')
       .then((res) => res.json())
       .then((nme) => setName([nme]))
   }, [])
